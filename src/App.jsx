@@ -1,12 +1,11 @@
 import './App.css';
-import {Counter} from "./components/counter"
-
+import {Grocery} from './components/grocery'
 function App() {
- let count = 0
+ 
  return(
    <div className="App">
-     
-     <Counter val={count}/>
+     <Grocery/>
+    
     
    </div>
  )
